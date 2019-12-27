@@ -1,0 +1,245 @@
+{
+  "surveys": [
+    {
+      "id": 0,
+      "name": "Profiles",
+      "description": "Your profiles",
+      "image": "images/people.jpg",
+      "questions": [
+        {
+          "id": 0,
+          "question": "What is your occupation ?",
+          "answers": [
+            {
+              "id": 0,
+              "answer": "unoccupied"
+            },
+            {
+              "id": 1,
+              "answer": "student"
+            },
+            {
+              "id": 2,
+              "answer": "employee"
+            },
+            {
+              "id": 3,
+              "answer": "self-employee"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "question": "What is your age ?",
+          "answers": [
+            {
+              "id": 0,
+              "answer": "under 18"
+            },
+            {
+              "id": 1,
+              "answer": "18 - 35"
+            },
+            {
+              "id": 2,
+              "answer": "36 - 55"
+            },
+            {
+              "id": 3,
+              "answer": "55 - 70"
+            },
+            {
+              "id": 4,
+              "answer": "over 70"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Hobbies",
+      "description": "Your hobbies",
+      "image": "images/stadium.jpg",
+      "questions": [
+        {
+          "id": 0,
+          "question": "What sport do you play ?",
+          "answers": [
+            {
+              "id": 0,
+              "answer": "swimming"
+            },
+            {
+              "id": 1,
+              "answer": "martial arts"
+            },
+            {
+              "id": 2,
+              "answer": "running"
+            },
+            {
+              "id": 3,
+              "answer": "none"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "question": "What music do you listen to ?",
+          "answers": [
+            {
+              "id": 0,
+              "answer": "classical"
+            },
+            {
+              "id": 1,
+              "answer": "pop"
+            },
+            {
+              "id": 2,
+              "answer": "rock"
+            },
+            {
+              "id": 3,
+              "answer": "other"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "participations": [
+    {
+      "id": 0,
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 1
+        },
+        {
+          "questionId": 1,
+          "answerId": 3
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 2
+        },
+        {
+          "questionId": 1,
+          "answerId": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 0
+        },
+        {
+          "questionId": 1,
+          "answerId": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "surveyId": 1,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 2
+        },
+        {
+          "questionId": 1,
+          "answerId": 3
+        }
+      ]
+    },
+    {
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 0
+        },
+        {
+          "questionId": 1,
+          "answerId": 0
+        }
+      ],
+      "date": "2019-12-26T16:37:05.769Z",
+      "id": 4
+    },
+    {
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 3
+        },
+        {
+          "questionId": 1,
+          "answerId": 4
+        }
+      ],
+      "date": "2019-12-26T16:39:13.237Z",
+      "id": 5
+    },
+    {
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 3
+        },
+        {
+          "questionId": 1,
+          "answerId": 4
+        }
+      ],
+      "date": "2019-12-26T16:39:30.270Z",
+      "id": 6
+    },
+    {
+      "surveyId": 0,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 0
+        },
+        {
+          "questionId": 1,
+          "answerId": 0
+        }
+      ],
+      "date": "2019-12-26T16:40:24.930Z",
+      "id": 7
+    },
+    {
+      "surveyId": 1,
+      "participation": [
+        {
+          "questionId": 0,
+          "answerId": 0
+        },
+        {
+          "questionId": 1,
+          "answerId": 0
+        }
+      ],
+      "date": "2019-12-26T16:40:45.196Z",
+      "id": 8
+    }
+  ]
+}
